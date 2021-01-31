@@ -1,10 +1,10 @@
 import './App.css';
-import './components/stats.js'
+import Stats from './components/Stats'
 
 function App() {
   return (
     <div className="App">
-      <stats/>
+      <Stats />
     </div>
   );
 }
